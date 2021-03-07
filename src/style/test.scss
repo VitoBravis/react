@@ -1,0 +1,19 @@
+.test {
+    background: red;
+    padding: 10px 20px;
+    margin-top: 20px;
+    transition: background-color .3s;
+
+    &:hover {
+        background: blue;
+    }
+
+    &__second {
+        display: block;
+        color: darkblue;
+    }
+}
+
+span {
+    color: green!important;
+}
